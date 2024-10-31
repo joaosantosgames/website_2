@@ -1,0 +1,202 @@
+html {
+    font-size: 24px;
+    font-family: sans-serif;
+    border: 2px solid rgb(252, 86, 86);
+    margin: 10px;
+    padding: 15px;
+}
+
+.font-text {
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font_tamanho {
+    font-size: 45px;
+}
+
+.font_familia {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.corlorido {
+    color: blue;
+}
+.corlorido2 {
+    color: purple;
+}
+
+/* alinhamentos */
+.meio {
+    text-align: center;
+}
+
+.esqueda {
+    text-align: left;
+}
+
+.direita {
+    text-align: right;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+div {
+    /* Largura do Elemento */
+    width: 400px;
+    /* Altura do Elemento */
+    height: 150px;
+    /* Bordas */
+    border: 1px solid rgb(92, 26, 81);
+}
+
+.bordas {
+    /* Shorthand */
+     border: 3px solid rgb(100, 19, 100); 
+    /* Borda Superior */
+    border-top: 10px solid rgb(233, 219, 24);
+    /* Borda Direita */
+    border-right: 10px dashed rgb(42, 42, 136);
+    /* Borda Inferior */
+    border-bottom: 10px dotted rgb(29, 99, 29);
+    /* Borda Esquerda */
+    border-left: 10px double rgb(119, 27, 119);
+    height: 450px;
+    width: 600px;
+    padding: 5px;
+}
+
+.background {
+    background-color: black;
+}
+
+.border-radius1 {
+    /* Shorthand */
+    width: 350px;
+    border-radius: 20px;
+}
+
+.border-radius2 {
+    /* raio da borda superior esquerda */
+    border-top-left-radius: 30px;
+    /* raio da borda superior direita */
+    border-top-right-radius: 50px;
+    /* raio da borda inferior direita */
+    border-bottom-right-radius: 100px;
+    /* raio da borda inferior esquerda */
+    border-bottom-left-radius: 150px;
+}
+
+.margin1 {
+    
+   
+    /* margin: Topo, Direita, Inferior, Esquerda( 4 lados distintos) */
+    margin: 40px 80px 50px 20px;
+}
+
+.margin2 {
+     /* margin: Y e X */
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.margin3 {
+    /* margin: TOTAL( 4 lados iguais ) */
+    margin-left: 200px;
+}
+
+.padding1 {
+    /* Padding igual para os 4 lados */
+    padding: 40px;
+}
+
+.padding2 {
+    /* Padding para Y e X */
+    padding: 50px 100px;
+}
+
+.padding3 {
+    /* Padding com 4 lados distintos */
+    padding: 10px 20px 30px 40px;
+}
+
+.padding4 {
+    /*padding : com 4 lados distintos, porem, separados por cada comando
+    *padding-top: topo
+    *padding-right: direita
+    *padding-bottom: inferior
+    *padding-left: esquerda
+    */
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 120px;
+    padding-left: 30px;
+}
+
+.h6_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    text-align: center;
+}
+.div_1 {
+    width: 300px;
+    padding: 10px;
+    height: 85px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: #FFcccc;
+    margin: 40px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.h3_1 {
+    color: aquamarine;
+}
+.h3_2 {
+    color: aquamarine;
+    font-size: 45px;
+}
+.h3_3 {
+    color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+}
+.h4_1 {
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+.h3_4 {
+    color: aquamarine;
+    text-align: center;
+}
+.h4_2 {
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-align: left;
+}
+.h4_3 {
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-align: right;
+}
+.h4_4 {
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-align: justify
+}
+.h2_2 {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: #FFcccc;
+    margin: 40px auto;
+    padding: 10px;
+}
